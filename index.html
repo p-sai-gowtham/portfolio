@@ -426,23 +426,23 @@
 
         <div class="row">
           <div class="col-lg-6">
-            <form action="#">
+            <form action="https://formsubmit.co/puvvulasaigowtham@gmail.com" method="POST">
               <div class="row">
                 <div class="col-lg-6 form-group">
-                  <input type="text" class="form-control" placeholder="Firstname">
+                  <input type="text" name="first_name" required class="form-control" placeholder="Firstname">
                 </div>
                 <div class="col-lg-6 form-group">
-                  <input type="text" class="form-control" placeholder="Lastname">
+                  <input type="text" name="last_name" required class="form-control" placeholder="Lastname">
                 </div>
               </div>
               <div class="row">
                 <div class="col-lg-12 form-group">
-                  <input type="email" class="form-control" placeholder="Email address">
+                  <input type="email" name="email" required class="form-control" placeholder="Email address">
                 </div>
               </div>
               <div class="row">
                 <div class="col-lg-12 form-group">
-                  <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Write your message..."></textarea>
+                  <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Write your message..."></textarea>
                 </div>
               </div>
               <div class="row">
@@ -450,6 +450,7 @@
                   <input type="submit" class="btn btn-black" value="Send Message">
                 </div>
               </div>
+              <input type="hidden" name="_next" value="https://sai-gowtham-p.vercel.app">
             </form>
           </div>
           <div class="col-lg-6">
